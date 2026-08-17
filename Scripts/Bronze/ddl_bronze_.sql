@@ -55,9 +55,9 @@ CREATE TABLE bronze.crm_sales_details (
 	sls_product_number NVARCHAR(50),
 	sls_product_key NVARCHAR(50),
 	sls_cust_id INT,
-	sls_order_date Date,
-	sls_ship_date Date,
-	sls_due_date Date,
+	sls_order_date INT,
+	sls_ship_date INT,
+	sls_due_date INT,
 	sls_sales Int,
 	sls_quaintity INT,
 	sls_price INT
